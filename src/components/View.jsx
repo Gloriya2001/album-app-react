@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const View = () => {
 
@@ -510,7 +511,7 @@ const [data,changeData]=useState(
 
   return (
     <div>
-
+<NavBar/>
 
 <div className="container">
                 <div className="row">
