@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Add from './components/Add';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
     
 <Add/>
 <br></br>
-
-
+<Search/>
+<br></br>
     </div>
   );
 }
