@@ -537,7 +537,7 @@ const [data,changeData]=useState(
                                             (value,index) => {
 
                                                return <tr>
-                                                    <td>{value.userI}</td>
+                                                    <td>{value.userId}</td>
                                                     <td>{value.id}</td>
                                                     <td>{value.title}</td>
                                                     
